@@ -40,7 +40,6 @@ class ImageScanner:
         child = self.child = tk.Toplevel(parent)
         self.input_table = args
         
-        child.iconbitmap('SAMPLE.ico')
         child.title("SAMPLE - " + self.input_table["Scanner"])
         child.geometry("650x340")
         child.resizable(0,0)
@@ -355,7 +354,7 @@ class ImageScanner:
     def ConformationWindow(self, wintype = 0):
         self.grandchild = tk.Toplevel(self.child)
         self.grandchild.geometry("300x100")
-        self.grandchild.iconbitmap('SAMPLE.ico')
+        
         self.grandchild.resizable(0,0)
         self.grandchild.protocol("WM_DELETE_WINDOW", self.disable_event)
         
@@ -387,7 +386,6 @@ class SAMPLE:
         self.Argtable["Output"] = None
         self.MaxSize = [None, None]
         
-        master.iconbitmap('SAMPLE.ico')
         master.geometry("510x360")
         
         self.Argtable["Scanner"] = None
@@ -522,7 +520,7 @@ class SAMPLE:
     def ConformationWindow(self, wintype = 0, err = None):
         self.SubWindow = tk.Toplevel(self.master)
         self.SubWindow.geometry("300x100")
-        self.SubWindow.iconbitmap('SAMPLE.ico')
+        
         self.SubWindow.resizable(0,0)
         self.SubWindow.protocol("WM_DELETE_WINDOW", self.disable_event)
         
