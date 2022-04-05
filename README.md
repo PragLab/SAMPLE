@@ -8,7 +8,7 @@ Usage and Installation:
 	
 	The standalone executable has no prerequisites in order to run. 
 	
-	To install the standalone executable, download and extract DIST/SAMPLE.zip. 
+	To install the standalone executable, download and extract APP/SAMPLE.zip. 
 	Then run SAMPLE.exe to open up the GUI and setup the time-lapse scan.
 	'SAMPLE.ico' icon file must be placed in the same folder as the executable, for SAMPLE to work.
 	
