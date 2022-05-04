@@ -43,14 +43,15 @@ Version Histroy:
 	
     Version 1.12:
 	
-		- Added 'refresh' button for the scanner list.
-		- Several visual rearangements of the windows.
+	- Added 'refresh' button for the scanner list.
+	- Several visual rearangements of the windows.
 		
     Version 1.11:
 	
-		- Added 'view in folder' button for the scanning monitor screen.
+	- Added 'view in folder' button for the scanning monitor screen.
 		
     Version 1.1:
 	
-		- Reworked the scheduler logic, it is more accurate and will no longer skip the occational  scan.
-		- Fixed an issue with the attributes of currently operating runs, changing when user changes something in the main window.
+	- Reworked the scheduler logic, it is more accurate and will no longer skip the occational  scan.
+	- Fixed an issue with the attributes of currently operating runs, changing when user changes something in the main window.
+	- Changed the 12 hour clock to 24 hour cycle instead. Removed the AM/PM tag from the output file names, as it confused ImageJ when analysing the data.
