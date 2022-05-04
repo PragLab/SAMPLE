@@ -40,11 +40,17 @@ Image Formats produced by SAMPLE:
     JPG - Lossy compression, smallest file size
     
 Version Histroy:
+	
     Version 1.12:
-    - Added 'refresh' button for the scanner list.
-    - Several visual rearangements of the windows.
+	
+		- Added 'refresh' button for the scanner list.
+		- Several visual rearangements of the windows.
+		
     Version 1.11:
-    - Added 'view in folder' button for the scanning monitor screen.
+	
+		- Added 'view in folder' button for the scanning monitor screen.
+		
     Version 1.1:
-    - Reworked the scheduler logic, it is more accurate and will no longer skip the occational  scan.
-    - Fixed an issue with the attributes of currently operating runs, changing when user changes something in the main window.
+	
+		- Reworked the scheduler logic, it is more accurate and will no longer skip the occational  scan.
+		- Fixed an issue with the attributes of currently operating runs, changing when user changes something in the main window.
